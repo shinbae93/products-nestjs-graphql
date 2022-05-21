@@ -1,0 +1,12 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "hungncd123",
+  "database": "products",
+  "synchronize": true,
+  "cli": {
+    "migrationsDir": "src/migrations"
+  }
+}

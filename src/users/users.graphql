@@ -1,0 +1,10 @@
+type User {
+  id: Int!
+  username: String!
+  products: [Product]
+}
+
+type Query {
+  users: [User]!
+  user(id: Int!): User
+}
